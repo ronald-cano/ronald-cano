@@ -1365,3 +1365,18 @@ input, select, textarea {
 			  .whatsapp-icon {
 				margin-top:13px;
 			  }
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 70%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: 5px;
+}
